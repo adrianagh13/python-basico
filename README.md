@@ -9,3 +9,8 @@ Apuntes del curso básico de Python.
 
 ---------------------------------------------
 --------------------------------------------
+
+## Núcleo de un programa: los algoritmos
+Se trata de una serie de pasos ordenados que permiten resolver un problema. 
+- Todos los algoritmos son finitos, siempre hay una cantidad limitada de pasos.
+- No es ambiguo.
