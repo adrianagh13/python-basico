@@ -107,3 +107,8 @@ También es una buena práctica especificar el tipo de dato entero desde la entr
 - >= --> Mayor igual
 - <= --> Menor igual
 
+
+
+## Conversor
+Realizamos un algoritmo que convierte una cantidad de pesos a dolares. Implementamos una nueva función llamada round, la cual redondea un numero flotante al numero de decimales que se le indiquen.
+- round(var, n)
