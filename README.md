@@ -8,10 +8,12 @@ Apuntes del curso básico de Python.
 - Instagram, Google, Spotify y demás, están desarrollados en el backend con python.
 
 
+
 ## Núcleo de un programa: los algoritmos
 Se trata de una serie de pasos ordenados que permiten resolver un problema. 
 - Todos los algoritmos son finitos, siempre hay una cantidad limitada de pasos.
 - No es ambiguo.
+
 
 
 ## Explorando Python: operadores aritméticos
@@ -23,6 +25,7 @@ Podemos hacer operaciones ariméticas, como sumas, restas. Sin embargo, en el ed
 - % --> Residuo de una división 
 - ** --> Permite realizar potencias
 - num**(1/n) --> Raíz, donde n es el orden de la raíz.
+
 
 
 ## PRIMITIVOS: Tipos de datos sencillos
@@ -54,6 +57,7 @@ Valores True o False
 - True
 
 
+
 ## Convertir un tipo de dato a otro
 var = input('Ingrese un dato: ') --> Permite la entrada de datos
 Si en la entrada de datos no especificamos el tipo de dato, lo identificará como un  string.
@@ -73,4 +77,33 @@ También es una buena práctica especificar el tipo de dato entero desde la entr
 - str(numero1) --> Convierte un dato o variable en string. Esta sentencia nos arrojará el valor en consola, sin embargo podemos guardarlo en un variable.
 
 
+
+## Operadores lógicos y de comparación
+
+### Lógicos
+- es_estudiante = True
+- trabaja = False
+
+#### and
+- and --> Para que retorne verdadero, todas las variables que se comparen tienen que ser verdaderas.
+- es_estudiante and trabaja
+- False
+
+#### or
+- or --> Para que retorne verdadero si al menos una de las variables comparadas tienen que ser verdaderas.
+- es_estudiante or trabaja
+- true
+
+#### not
+- not --> Invierte el valor lógico del bool
+- not trabaja
+- True
+
+### Comparación
+- == --> Igualdad: devuelve verdadero si 2 valores son iguales
+- != --> Diferencia: Devuelve verdadero si los valores son diferentes.
+- > --> Mayor que
+- < --> Menor que
+- >= --> Mayor igual
+- <= --> Menor igual
 
