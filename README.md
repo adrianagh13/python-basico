@@ -17,8 +17,8 @@ Se trata de una serie de pasos ordenados que permiten resolver un problema.
 ## Explorando Python: operadores aritméticos
 Para utilizar la consola interactiva de python se ejecuta el comando py o python3. Para identificar que se activó la consola interactiva, debemos ver esto >>>.
 Podemos hacer operaciones ariméticas, como sumas, restas. Sin embargo, en el editor de código no es así, debemos imprimir el valor.
-- >>> print(5+5)
-10
+- print(5+5)
+- 10
 - // --> Devuelve la parte entera de una división
 - % --> Residuo de una división 
 - ** --> Permite realizar potencias
@@ -42,6 +42,7 @@ Podemos operar con las cadenas de texto. Por ejemplo, para concatenar, sumamos d
 - nombre2 = "Gpe"
 - nombre + nombre2 
 - 'AdrianaGpe'
+
 También podemos multiplicar variables
 - nombre * 4
 - 'AdrianaAdrianaAdrianaAdriana'
@@ -51,6 +52,25 @@ Valores True o False
 - es_estudiante = True
 - print(es_estudiante)I
 - True
+
+
+## Convertir un tipo de dato a otro
+var = input('Ingrese un dato: ') --> Permite la entrada de datos
+Si en la entrada de datos no especificamos el tipo de dato, lo identificará como un  string.
+- numero1 = input('Escribe un numero' )
+- Escribe un numero: 1
+- numero1
+- "4"
+
+### Convertir a entero
+- int(numero1) --> Convierte un dato o variable en entero. Esta sentencia nos arrojará el valor en consola, sin embargo podemos guardarlo en un variable.
+- numero1 = int(numero1)
+
+También es una buena práctica especificar el tipo de dato entero desde la entrada de datos.
+- numero1 = int(input("Ingrese un numero "))
+
+### Convertir a string
+- str(numero1) --> Convierte un dato o variable en string. Esta sentencia nos arrojará el valor en consola, sin embargo podemos guardarlo en un variable.
 
 
 
