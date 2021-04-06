@@ -38,3 +38,4 @@ elif opcion == 3:
 else:
     print("Ingrese una opción válida")
 
+# atajo para las triples comillas shift + alt + a

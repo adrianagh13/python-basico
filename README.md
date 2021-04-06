@@ -114,6 +114,7 @@ Realizamos un algoritmo que convierte una cantidad de pesos a dolares. Implement
 - round(var, n)
 
 
+
 ## Condicionales
 - El condicional **if** (si) permite identificar si una sentencia se cumple o no. Seguido de la sentencia van 2 puntos : que indican que se ejecutará códido respecto al cumplimiento de la sentencia
 Sintáxis: if n > 2:
@@ -122,5 +123,28 @@ Sintáxis: if n > 2:
 
 Para las instrucciones de los condicionales debe haber 4 espacios.
 
-Extra: la sentencia **pass*** indica una instrucción que omitiremos por el momento, es código de relleno
+Extra: la sentencia **pass** indica una instrucción que omitiremos por el momento, es código de relleno
 
+
+
+## Funciones 
+
+### Definición
+- En python una función es un código reutilizable que toma argumentos, realiza algunos cálculos y devuelve uno o más resultados. 
+Para definir una función utilizamos la palabra reservada **def**.
+- Llamamos o invocamos la función utilizando una expresión que contenga el nombre de la función, paréntesis para posibles parámetros, y argumentos dentro de ellos. Se puede invocar las veces que sea necesario.
+
+### Tipos de funciones
+
+#### Incorporadas
+- Son parte de python: **print(), round(), int(), type()...**
+#### Definición propia
+- Creadas por el programador con **def**, para después utilizarlas, seguida de parámetros opcionales entre paréntesis y 2 puntos. 
+- Se indenta el cuerpo de la función
+- Define la función pero no la llama.
+
+### Parámetros
+Un parámetro es una variable que utilizamos en las funciones. Permite al código de la función acceder a los argumentos recibidos.
+
+### Argumentos
+Es un valor que informamos a la función como su input cuando llamamos a la función. Los utilizamos para instruir a la función que realice diferentes tareas.
