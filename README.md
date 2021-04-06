@@ -19,8 +19,7 @@ Se trata de una serie de pasos ordenados que permiten resolver un problema.
 ## Explorando Python: operadores aritméticos
 Para utilizar la consola interactiva de python se ejecuta el comando py o python3. Para identificar que se activó la consola interactiva, debemos ver esto >>>.
 Podemos hacer operaciones ariméticas, como sumas, restas. Sin embargo, en el editor de código no es así, debemos imprimir el valor.
-- print(5+5)
-- 10
+print(5+5)  10
 - // --> Devuelve la parte entera de una división
 - % --> Residuo de una división 
 - ** --> Permite realizar potencias
@@ -41,30 +40,21 @@ Números de punto flotante. En python se representan con un punto, no con coma. 
 ### Strings
 Es indiferente si utilizamos comillas simples o comillas dobles
 Podemos operar con las cadenas de texto. Por ejemplo, para concatenar, sumamos dos variables. 
-- nombre = 'Adriana'
-- nombre2 = "Gpe"
-- nombre + nombre2 
-- 'AdrianaGpe'
+nombre = 'Adriana'  nombre2 = "Gpe"  nombre + nombre2  'AdrianaGpe'
 
 También podemos multiplicar variables
-- nombre * 4
-- 'AdrianaAdrianaAdrianaAdriana'
+nombre * 4  'AdrianaAdrianaAdrianaAdriana'
 
 ### Boolean
 Valores True o False
-- es_estudiante = True
-- print(es_estudiante)I
-- True
+es_estudiante = True  print(es_estudiante)  True
 
 
 
 ## Convertir un tipo de dato a otro
 var = input('Ingrese un dato: ') --> Permite la entrada de datos
 Si en la entrada de datos no especificamos el tipo de dato, lo identificará como un  string.
-- numero1 = input('Escribe un numero' )
-- Escribe un numero: 1
-- numero1
-- "4"
+numero1 = input('Escribe un numero' )  Escribe un numero: 4  numero1  "4"
 
 ### Convertir a entero
 - int(numero1) --> Convierte un dato o variable en entero. Esta sentencia nos arrojará el valor en consola, sin embargo podemos guardarlo en un variable.
@@ -121,7 +111,7 @@ Sintáxis: if n > 2:
 - **elif** (en cambio si)--> Condicional posterior al if, pero no esl final. Lo podemos usar las veces que sean
 - **else** (en cambio) --> El último condicional a aplicar
 
-Para las instrucciones de los condicionales debe haber 4 espacios.
+Para las instrucciones de los condicionales debe haber 4 espacios (indentación).
 
 Extra: la sentencia **pass** indica una instrucción que omitiremos por el momento, es código de relleno
 
@@ -153,3 +143,24 @@ Un parámetro es una variable que utilizamos en las funciones. Permite al códig
 
 ### Sentencia return 
 Las funciones pueden comunicarse con el exterior de las mismas. El proceso de comunicación con el exterior se hace devolviendo valores usando la sentencia **return**. Por defecto todas las funciones retornan el valor none.
+
+
+
+## Trabajando con texto: Cadenas de caractéres
+
+Métodos: Función especial para un tipo de dato en particular.  
+
+Para las cadenas de texto podemos implementar diferentes métodos principalmente de las funciones ya integradas. Algunos de ellos que vimos en clase son:
+- upper(): Convierte a mayúsculas una cadena.
+- capitalize(): Pone mayúscula a la primer letra de una cadena.
+- strip(): Elimina espacios al inicio y al final de una cadena.
+- lower(): Convierte a minúsculas una cadena.
+- replace('a', 'b'): Reemplaza cierta letra en una cadena, donde a es la letra a reemplazar, y b es el reemplazo.
+- len(string): Retorna la longitud de una cadena.
+
+También, podemos acceder a los caracteres de una cadena mediante indices:  ej --> string[0]
+
+[Built-in functions](https://docs.python.org/3/library/functions.html)
+
+
+
