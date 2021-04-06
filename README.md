@@ -144,7 +144,12 @@ Para definir una función utilizamos la palabra reservada **def**.
 - Define la función pero no la llama.
 
 ### Parámetros
-Un parámetro es una variable que utilizamos en las funciones. Permite al código de la función acceder a los argumentos recibidos.
+Un parámetro es una variable que utilizamos en las funciones. Permite al código de la función acceder a los argumentos recibidos. Los parámetros hacen que los argumentos se reciban por orden.
 
 ### Argumentos
-Es un valor que informamos a la función como su input cuando llamamos a la función. Los utilizamos para instruir a la función que realice diferentes tareas.
+- Es un valor que informamos a la función como su input cuando llamamos a la función. Los utilizamos para instruir a la función que realice diferentes tareas. 
+- Podemos llamar a la función indicando los argumentos por posición o por nombre de los parámetros. 
+- También se pueden definir un número indeterminado de argumentos creando una lista dinámica tipo tupla, definiendo el parámetro con un asterisco.
+
+### Sentencia return 
+Las funciones pueden comunicarse con el exterior de las mismas. El proceso de comunicación con el exterior se hace devolviendo valores usando la sentencia **return**. Por defecto todas las funciones retornan el valor none.
