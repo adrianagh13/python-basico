@@ -139,6 +139,7 @@ Para definir una función utilizamos la palabra reservada **def**.
 
 #### Incorporadas
 - Son parte de python: **print(), round(), int(), type()...**
+[Built-in functions](https://docs.python.org/3/library/functions.html)
 #### Definición propia
 - Creadas por el programador con **def**, para después utilizarlas, seguida de parámetros opcionales entre paréntesis y 2 puntos. 
 - Se indenta el cuerpo de la función
@@ -169,9 +170,14 @@ Para las cadenas de texto podemos implementar diferentes métodos principalmente
 - replace('a', 'b'): Reemplaza cierta letra en una cadena, donde a es la letra a reemplazar, y b es el reemplazo.
 - len(string): Retorna la longitud de una cadena.
 
-También, podemos acceder a los caracteres de una cadena mediante indices:  ej --> string[0]
+**Indices** También, podemos acceder a los caracteres de una cadena mediante indices:  ej --> string[0]
 
-[Built-in functions](https://docs.python.org/3/library/functions.html)
+**Slices** Permiten dividir una cadena en "rebanadas", de múltiples formas:  
+nombre = 'Adriana'  
+nombre[0:3]  
+'Adr'
+
+[Tipos de Métodos Built-in: Strings](https://docs.python.org/3/library/stdtypes.html#string-methods)
 
 
 
