@@ -181,3 +181,27 @@ nombre[0:3]
 
 
 
+## Proyecto: Palindromo  
+
+Palíndromo: Palabra con el mismo significado leyéndose al derecho y al revés.  
+Aplicamos métodos de cadenas de caracteres, condicionales, operadores de comparación, y además implementamos la función principal run.
+
+
+
+## Función principal run y Entry Point
+Todos los programas de python tienen una función principal que contiene la lógica del archivo. Esta función se le llama run o main.  
+def run()  
+
+Hay código que unicamente queremos usar cuando corremos un archivo, y hay otro que queremos correr siendo importado. Podemos distinguir esta diferencia utilizando la siguiente sentencia:  
+if __name__ = "__main__"  
+    run()
+Al correr un código python se hacen asignaciones de variables. A la variable name se le asigna el string main. Con esta asignación corremos la función principal.  
+Este condicional permite que el código del programa original, sea diferente a un programa al que se le importe, pues ya no corre desde el programa original.  
+
+[Sentencia de entry point](https://www.youtube.com/watch?v=sugvnHA7ElY)
+
+
+
+
+
+
