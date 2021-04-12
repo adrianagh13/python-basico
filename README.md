@@ -202,6 +202,15 @@ Este condicional permite que el código del programa original, sea diferente a u
 
 
 
+## Aprendiendo bucles: Ciclo while  
+Se trata del ciclo fundamental de la programación.  
+While --> Mientras  
+Misma estructura que un condicional:  
+while ***sentencia***:  
+    pass
+
+
+
 
 
 
