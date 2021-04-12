@@ -202,12 +202,25 @@ Este condicional permite que el código del programa original, sea diferente a u
 
 
 
-## Aprendiendo bucles: Ciclo while  
+## Aprendiendo bucles
+
+### While  
 Se trata del ciclo fundamental de la programación.  
 While --> Mientras  
 Misma estructura que un condicional:  
 while ***sentencia***:  
-    pass
+    pass  
+
+Extra: No podemos concatener ints y strings a la vez, debemos de convertir los numeros. Si no deseamos convertir debemos poner una f entre los paréntesis, y las variables entre corchetes:  
+print(f'2 elevado a la {contador} es igual a {potencia_2}')
+
+### For  
+Este ciclo será usado cuando se conozcan la cantidad de veces a iterar. Se utiliza para recorrer los elementos de un objeto iterable.  
+Sintáxis: for contador in range(inicial:tope):  
+- Un **contador** es una variable que contiene valores que van incrementando o decrementando cada vez que se ejecuta una acción que lo contenga. También se escribe como **i** por iterador.  
+- La función incorporada **range()** retorna una sucesión de numeros enteros, se utiliza para representar una secuencia inmutable de números.
+ 
+
 
 
 
