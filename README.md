@@ -218,7 +218,10 @@ print(f'2 elevado a la {contador} es igual a {potencia_2}')
 Este ciclo será usado cuando se conozcan la cantidad de veces a iterar. Se utiliza para recorrer los elementos de un objeto iterable.  
 Sintáxis: for contador in range(inicial:tope):  
 - Un **contador** es una variable que contiene valores que van incrementando o decrementando cada vez que se ejecuta una acción que lo contenga. También se escribe como **i** por iterador.  
-- La función incorporada **range()** retorna una sucesión de numeros enteros, se utiliza para representar una secuencia inmutable de números.
+- La función incorporada **range()** retorna una sucesión de numeros enteros, se utiliza para representar una secuencia inmutable de números.  
+Podemos recorrer cadenas de caracteres o Strings con for, simplemente iterando la variable de la palabra o frase:  
+for caracter in palabra:
+    print(caracter)
  
 
 
