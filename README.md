@@ -222,6 +222,11 @@ Sintáxis: for contador in range(inicial:tope):
 Podemos recorrer cadenas de caracteres o Strings con for, simplemente iterando la variable de la palabra o frase:  
 for caracter in palabra:
     print(caracter)
+
+### Sentencias break, continue y pass
+- **break**: Termina con el ciclo y continua con la ejecución de la siguiente instrucción
+- **continue**: Rompe con la iteración actual del bucle e ignora los estamentos que quedan en la iteración actual, para proceder con la siguiente.
+- **pass**: Se utliza cuando se requiere por sintáxis una declaración pero no se quiere ejecutar ningún comando o código.
  
 
 
